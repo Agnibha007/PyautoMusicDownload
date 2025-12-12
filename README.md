@@ -57,7 +57,7 @@ After syncing, your folder looks like this:
 
 
 /project-directory
-├── autosync.py
+├── main.py
 ├── requirements.txt
 ├── <playlist_id>.spotdl # automatically generated
 ├── <Playlist Name>/ # all songs stored here
@@ -97,7 +97,7 @@ Run:
 
 
 
-python autosync.py
+python main.py
 
 
 Then paste your playlist link, for example:
@@ -112,3 +112,57 @@ The script handles everything from there — metadata retrieval, folder creation
 ---
 
 ## 🖼 Example Output
+Fetching playlist metadata…
+
+Creating folder: /SpotifySync/Bengali Songs
+
+=== Missing Songs ===
+
+Ei Meghla Dine Ekla – Hemanta Mukherjee
+
+Ami Dur Hote Tomarei Dekhechhi – Hemant Kumar
+
+⬇ Downloading: Ei Meghla Dine Ekla – Hemanta Mukherjee
+⬇ Downloading: Ami Dur Hote Tomarei Dekhechhi – Hemant Kumar
+
+=== PLAYLIST SYNC COMPLETE ===
+
+
+---
+
+## ✨ Features
+
+- ✔ Fully automated syncing  
+- ✔ Local folder auto-detection  
+- ✔ Automatic metadata fetching  
+- ✔ Only downloads missing songs  
+- ✔ Clean project structure  
+- ✔ No hardcoded paths  
+- ✔ GitHub-friendly  
+- ✔ Perfect for public use  
+
+---
+
+## 📘 FAQ
+
+### **Does this use Spotify’s API?**  
+No. It uses `spotdl`, which handles metadata extraction independently.
+
+### **Is downloading songs legal?**  
+Downloading copyrighted content without rights may violate terms.  
+This tool is for personal backup/educational use.
+
+---
+
+## 👨‍💻 Author
+
+**Agnibha Mukherjee**  
+Student • Developer • Automation Enthusiast  
+
+If you found this useful, consider ⭐ starring the repository!
+
+---
+
+## 📝 License
+
+This project is open-source under the MIT License.
